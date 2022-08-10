@@ -7,4 +7,3 @@ A project to build a website for Forward Fitness. This project was originally co
 ### What I learned or noticed while revisiting the project
 
  - I noticed that there is proper tag usage which is good for accessibility. Tags such as nav, main, article, header, footer, and more.
- - I remembered the usage for dl, dt, and dd tags. They can be used for descriptions containing definitions or terms. 
