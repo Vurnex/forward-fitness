@@ -3,6 +3,7 @@
 /* Style for body specifies a background color */
 body {
 	background-color: #1D1D1C;
+	margin: 0;
 }
 
 /* Style to create a fluid image */
@@ -17,6 +18,11 @@ img {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.nutrition-main {
+
+	display: block;
 }
 
 /* Style for the header specifies top margin, background color, rounded corners, and center-aligns content */
@@ -87,12 +93,22 @@ main a {
 	text-decoration: none;
 }
 
+article {
+
+	display: flex;
+    flex-direction: column;
+}
+
 /* Style for footer specifies font size, text alignment, and top margin */
 footer {
 	font-size: .70em;
 	text-align: center;
 	margin-top: 2em;
 	color: #FFFFFF;
+
+	display: flex;
+	flex-direction: column;
+	font-size: 1rem;
 }
 
 /* Style for anchor element within the footer element */
@@ -154,13 +170,11 @@ video {
 #copyright {
 	float: left;
 	margin-top: 2em;
-	width: 80%;
 }
 
 /* Style rule for social div */
 #social {
 	float: right;
-	width: 20%;
 }
 
 /* Style rule for social media icons */
@@ -192,6 +206,11 @@ main {
 	margin-top: -0.3em;
 	border-radius: 0;
 	overflow: auto;
+}
+
+.nutrition-main {
+
+	display: flex;
 }
 
 /* Style specifies to hide the mobile class */
@@ -363,6 +382,11 @@ label {
 form ul {
 	margin-left: 2em;
 }
+
+dd {
+
+	line-height: 1.5em;
+}
 	
 }
 
@@ -375,6 +399,16 @@ form ul {
 	background-color: #1D1D1C;
 }
 
+.home-banner {
+
+	width: 100%;
+}
+
+.nutrition-main {
+
+	display: flex;
+}
+
 /* Style to left align header */
 header {
 	text-align: center;
@@ -384,9 +418,8 @@ header {
 nav {
 	float: auto;
 	margin-top: 0;
-	margin-left: 14em;
 	margin-bottom: 0;
-	width: 65%;
+	width: 100%;
 }
 
 /* Style specifies margin and padding for the unordered list within the nav */
@@ -465,6 +498,7 @@ footer {
 	margin-top: -0.2em;
 	padding: 2em;
 	overflow: auto;
+	font-size: 1.2rem;
 }
 
 /*Style specifies color and left margin for the section element */
@@ -519,6 +553,11 @@ form {
 /* Style rule for paragraph with form element */
 form p {
 	color: #000000;
+}
+
+dd {
+
+	line-height: 1.5em;
 }
 	
 }
