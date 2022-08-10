@@ -2,6 +2,8 @@
 
 A project to build a website for Forward Fitness. This project was originally completed in Spring 2019 during my Freshman year of College (IT Major).
 
+The purpose of this website is to present a fitness club whose goal is to help its clients meet their fitness and nutrition goals. 
+
 [Click here for a live preview](https://vurnex.github.io/forward-fitness/)
 
 ### What I learned or noticed while revisiting the project
