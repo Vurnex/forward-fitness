@@ -143,9 +143,37 @@ label {
 	display: block;
 }
 
+.contact-main {
+
+	padding: 0;
+}
+
+.contact-main h2{
+
+	text-align: center;
+
+}
+
+form {
+
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+}
+
+.form-container {
+
+	background-color: #FFFFFF;
+	color: black;
+	display: flex;
+	justify-content: center;
+	margin-left: unset;
+}
+
 /* Style rule for unordered list within a form */
 form ul {
 	list-style-type: none;
+	padding: 0;
 }
 
 /* Style rule for chkbx class */
@@ -164,6 +192,20 @@ video {
 	border: 0.5em ridge #FFFFFF;
 	height: auto;
 	max-width: 100%;
+}
+
+.contact-info {
+
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact-info p {
+	margin-right: unset;
+	margin-left: unset;
+	width: unset;
 }
 
 /* Style rule for the copyright div */
@@ -365,24 +407,6 @@ caption {
 	padding-bottom: 0.5em;
 }
 
-/* Style rule label element */
-label {
-	float: left;
-	padding-right: 0.5em;
-	text-align: right;
-	width: 10em;
-}
-
-/* Style rule for btn class */
-.btn {
-	margin-left: 12em;
-}
-
-/* Style rule for form unordered list element */
-form ul {
-	margin-left: 2em;
-}
-
 dd {
 
 	line-height: 1.5em;
@@ -546,8 +570,8 @@ caption {
 
 /* Style rule for form element */
 form {
-	background-color: #FFFFFF;
 	padding: 1em;
+	width: 40%;
 }
 
 /* Style rule for paragraph with form element */
