@@ -161,6 +161,20 @@ form {
 	width: 90%;
 }
 
+form input[type="text"], input[type="email"], input[type="tel"] {
+
+	height: 20px;
+    border-radius: 5px;
+    background-color: aliceblue;
+
+}
+
+form textarea {
+
+	border-radius: 5px;
+    background-color: aliceblue;
+}
+
 .form-container {
 
 	background-color: #FFFFFF;
