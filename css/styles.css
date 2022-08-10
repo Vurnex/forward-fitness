@@ -3,18 +3,11 @@
 /* Style for body specifies a background color */
 body {
 	background-color: #1D1D1C;
-	margin: 0;
 }
 
 /* Style to create a fluid image */
 img { 
 	max-width: 100%;
-}
-
-dd {
-
-	line-height: 2em;
-	width: 70%;
 }
 
 /* Styles for Mobile Layout */
@@ -96,7 +89,7 @@ main a {
 
 /* Style for footer specifies font size, text alignment, and top margin */
 footer {
-	font-size: 1em;
+	font-size: .70em;
 	text-align: center;
 	margin-top: 2em;
 	color: #FFFFFF;
@@ -161,13 +154,13 @@ video {
 #copyright {
 	float: left;
 	margin-top: 2em;
-	width: 100%;
+	width: 80%;
 }
 
 /* Style rule for social div */
 #social {
 	float: right;
-	width: 100%;
+	width: 20%;
 }
 
 /* Style rule for social media icons */
