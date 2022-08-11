@@ -2,7 +2,7 @@
 
 A project to build a website for Forward Fitness. This project was originally completed in Spring 2019 during my Freshman year of College (IT Major).
 
-The process for building this website was spread out across various labs completed each week during the semester. 
+The process for building this website was spread out across various labs completed each week during the semester. In this repo, I have made some small changes to make it look a little nicer. The original project is located in my coursework repo. 
 
 The purpose of this website is to present a fitness club whose mission is to help its clients meet their fitness and nutrition goals.
 
