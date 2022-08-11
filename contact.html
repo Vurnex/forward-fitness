@@ -33,7 +33,7 @@
 				<h2>Complete the form below to begin your free trial.</h2>
 				
 				<section class="form-container">
-					<form method="post">
+					<form method="post" onsubmit="tyAlert()">
 						<p>Required fields are indicated by *</p>
 
 						<label for="fName">* First Name:</label>
@@ -70,7 +70,7 @@
 					
 						<textarea id="questions" name="questions" rows="3" cols="25"></textarea>
 					
-						<input type="submit" id="submit" value="Submit" class="btn" onclick="tyAlert()">
+						<input type="submit" id="submit" value="Submit" class="btn">
 						<input type="reset" id="reset" value="Reset Form" class="btn">
 					</form>
 				</section>
